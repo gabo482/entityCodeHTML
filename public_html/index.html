@@ -8,8 +8,36 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
         <title>TODO supply a title</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/custom/readJson.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+        <link href="css/custom/style.css" rel="stylesheet" type="text/css">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+       
     </head>
     <body>
-        <div>TODO write content</div>
+
+       <div id="container">
+        
+       </div> 
+        <h1>Convertidor de entidades HTML</h1>
+        <div class="mb-3">
+            <label class="form-label">Entity code HTML hardcore</label>
+            <input type="text" name="university" value="100% Poli&eacute;ster, Tacto Algod&oacute;n, 120 G/m&sup2;." class="form-control"/>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Valor obtenido desde JSON</label>
+            <input  type="text"  id="myInput" class="form-control">
+        </div>
+        <div class="mb-3"><label class="form-label">Decodificador entidades HTML</label>
+            <input type="text" id="convert" class="form-control">
+        </div>
+        </div class="mb-3">   
+            <button  class="btn btn-primary" onclick="setInputValue()">Set Value</button>
+        </div>
+        </div class="mb-3">   
+            <button class="btn btn-primary" onclick="clearInputValue()">Clear Value</button>
+        </div>
+
+        
     </body>
 </html>

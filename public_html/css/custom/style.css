@@ -1,0 +1,27 @@
+
+            div {
+                width: max-content;
+            }
+            input {
+                width: 300px;
+                background-color:gainsboro;
+            }
+            body {
+                 font-family: sans-serif;
+			}
+			
+			.container {
+			width: 500px;
+			}
+			
+			.form-control {
+			width: 100%;
+			}
+			
+			.form-label {
+			font-weight: bold;
+			}
+			
+			.btn {
+			margin-top: 10px;
+			}
